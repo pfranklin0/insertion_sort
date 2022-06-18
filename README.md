@@ -1,1 +1,2 @@
 # insertion_sort
+This code was written in Java on a Linux ARM64 computer. Project code is built using Maven. The code will implement a sorting algorithm and unit test to show that it works as expected when provided an example that has not yet been sorted.
