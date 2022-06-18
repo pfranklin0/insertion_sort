@@ -19,8 +19,10 @@ public class InsertionSortTest
     @Test
     public void InsertionSort_isSorted_InitializesFalse()
     {
+        // 1. The conditions for the test are created and initializations are inline with declarations
         InsertionSort is = new InsertionSort();
 
+        // 2. The test confirms that the expected result was obtained from those conditions
         assertFalse(is.isSorted());
     }
 }
