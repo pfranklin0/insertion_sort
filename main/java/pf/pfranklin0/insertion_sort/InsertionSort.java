@@ -7,7 +7,7 @@ package pf.pfranklin0.insertion_sort;
  * Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). Introduction to algorithms (3rd ed.). Massachusetts Institute of Technology.
  * 
  */
-public class InsertionSort 
+public class InsertionSort implements InsertionSortInterface
 {
     private boolean sorted; // Boolean variable maintains state regarding whether the class has sorted the data
 
