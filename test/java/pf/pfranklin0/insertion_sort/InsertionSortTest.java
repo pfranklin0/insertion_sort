@@ -19,13 +19,10 @@ public class InsertionSortTest
     @Test
     public void InsertionSort_isSorted_InitializesFalse()
     {
-        // Arrange
         InsertionSort is;
     
-        // Act
         is = new InsertionSort();
 
-        // Assert
         assertFalse(is.isSorted());
     }
 }
