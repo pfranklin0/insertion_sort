@@ -9,13 +9,20 @@ package pf.pfranklin0.insertion_sort;
  */
 public class InsertionSort 
 {
-    private boolean sorted;
+    private boolean sorted; // Boolean variable maintains state regarding whether the class has sorted the data
 
+    /**
+     * The default constructor initializes sorted in the false state.
+     */
     public InsertionSort() {
         this.sorted = false;
     }
 
-    public boolean getSorted() {
+    /**
+     * The method isSorted has zero inputs and returns a boolean value showing whether the object has been sorted.
+     * @return boolean. Returns whether the object has been sorted.
+     */
+    public boolean isSorted() {
         return this.sorted;
     }
 }

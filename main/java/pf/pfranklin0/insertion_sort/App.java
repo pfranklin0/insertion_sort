@@ -10,6 +10,6 @@ public class App
     {
         InsertionSort is = new InsertionSort();
 
-        System.out.println(is.getSorted());
+        System.out.println(is.isSorted());
     }
 }
